@@ -1,3 +1,226 @@
+/* 
+Special thanks and credit goes to the following:
+1) Kevin Powell https://www.youtube.com/watch?v=Azfj1efPAH0
+- This guy always makes CSS fun and easy to understand.
+2) Site Inspire https://www.siteinspire.com/websites/6966-norgram
+- I was able to find minimalist styled websites to imitate here.
+3) Norgram, a Denmark company https://www.norgram.co/
+- I imitated their website here for practice.
+4) Gary Simon (UI Design course coming soon on Scrimba).
+- He taught me a lot about Typography, Alignment, Visual Hierarchy and more.
+
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    line-height: 1.15;
+}
+
 body {
-    background: blue;
+    font-family: 'Commissioner', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.desktop {
+    display: flex;
+    padding-top: 13px;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    flex-grow: 1;
+    line-height: 96%;
+    cursor: pointer;
+    max-height: 31px;
+}
+
+.navigation li:nth-of-type(1) {
+    margin-left: auto;
+}
+
+.navigation li:nth-of-type(2),
+.navigation li:nth-of-type(3),
+.navigation li:nth-of-type(4) {
+    margin-left: 24px;
+}
+
+.navigation li:nth-of-type(5) {
+    margin-left: auto;
+    text-align: right;
+}
+
+.SamplingIsntStealing {
+    height: calc(100vh - 31px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.landing-banner {
+    transition: font-size .3s linear;
+}
+
+button {
+    outline-style: none;
+}
+@media (max-width: 768px) {
+    .landing-banner {
+        font-size: 4.9rem;
+        padding: 0 15px;
+        letter-spacing: .105rem;
+    }
+    .SamplingIsntStealing {
+        height: calc(100vh - 57px);
+    }
+}
+
+@media (max-width: 720px) {
+    .landing-banner {
+        font-size: 4.5rem;
+
+    }
+}
+
+@media (max-width: 540px) {
+    .landing-banner {
+        font-size: 3.3rem;
+
+
+    }
+    .SamplingIsntStealing {
+        height: calc(100vh - 57px);
+    }
+}
+
+@media (max-width: 414px) {
+    .landing-banner {
+        font-size: 2.4rem;
+
+    }
+}
+
+@media (max-width: 411px) {
+    .landing-banner {
+        font-size: 2.4rem;
+
+    }
+}
+
+@media (max-width: 375px) {
+    .landing-banner {
+        font-size: 2.1rem;
+
+    }
+}
+
+@media (max-width: 360px) {
+    .landing-banner {
+        font-size: 2rem;
+
+    }
+}
+
+@media (max-width: 849px) {
+
+    .desktop {
+        padding: 0;
+    }
+    
+    .desktop .navigation{
+        display: none;
+    }
+
+    .logo {
+        margin-left: 15px;
+        margin-top: 15px;
+        font-size: 1.1rem;
+    }
+
+    .mobile {
+        margin-left: auto;
+    }
+
+    /* .landing-banner {
+        font-size: 5.2rem;
+        letter-spacing: .105rem;
+        padding: 0 15px;
+    } */
+}
+
+@media (min-width: 850px) {
+
+    .mobile {
+        display: none;
+    }
+
+    .container-with-padding {
+        padding-left: calc((100vw - 850px)/6 + 15px);
+        padding-right: calc((100vw - 850px)/6 + 15px);
+    }
+
+    .logo {
+        width: calc(86px + (100vw - ((100vw - 850px)/6 + 15px)*2 - 1600px)*0.0005*86);
+    }
+
+    .logo,
+    .navigation {
+        font-size: calc(20px + (100vw - ((100vw - 850px)/6 + 15px)*2 - 1600px)*0.0005*20);
+    }
+
+    .navigation li:nth-of-type(5) {
+        width: calc((100% + 15px)/12*3 + -15px);
+    }
+
+    .landing-banner {
+        font-size: 6rem;
+        letter-spacing: .105rem;
+    }
+}
+
+@media (min-width: 1134px) {
+    .landing-banner {
+        font-size: 6.4rem;
+    }
+}
+
+@media (min-width: 1278px) {
+    .landing-banner {
+        font-size: 7.5rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .landing-banner {
+        font-size: 8rem;
+    }
+}
+
+@media (min-width: 1600px) {
+    .container-with-padding {
+        padding-left: calc((100vw - 850px)/6 + 15px);
+        padding-right: calc((100vw - 850px)/6 + 15px);
+    }
+
+    .landing-banner {
+        font-size: 10rem;
+        letter-spacing: .28rem;
+    }
 }
