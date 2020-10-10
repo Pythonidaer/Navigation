@@ -116,6 +116,9 @@ button {
         letter-spacing: .105rem;
         margin: 0 auto;
     }
+    .SamplingIsntStealing {
+        height: calc(100vh - 31px);
+    }
 }
 
 @media (max-width: 768px) {
@@ -123,9 +126,7 @@ button {
         font-size: 4.9rem;
 
     }
-    .SamplingIsntStealing {
-        height: calc(100vh - 57px);
-    }
+
 }
 
 @media (max-width: 720px) {
@@ -140,9 +141,6 @@ button {
         font-size: 3.3rem;
 
 
-    }
-    .SamplingIsntStealing {
-        height: calc(100vh - 57px);
     }
 }
 
