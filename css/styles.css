@@ -72,7 +72,7 @@ ul {
 }
 
 .SamplingIsntStealing {
-    height: calc(100vh - 31px);
+    height: calc(100vh - 42px);
     display: flex;
     justify-content: flex-start;
     align-items: center;
