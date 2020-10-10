@@ -8,7 +8,8 @@ Special thanks and credit goes to the following:
 - I imitated their website here for practice.
 4) Gary Simon (UI Design course coming soon on Scrimba).
 - He taught me a lot about Typography, Alignment, Visual Hierarchy and more.
-
+5) Jonathan Suh https://github.com/jonsuh
+- Without his amazing hamburger menu contributions this wouldn't be possible!
 */
 
 html, body {
@@ -68,7 +69,7 @@ ul {
 }
 
 .SamplingIsntStealing {
-    height: calc(100vh - 31px);
+    height: calc(100vh - 40px);
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -76,16 +77,51 @@ ul {
 
 .landing-banner {
     transition: font-size .3s linear;
+    margin: 0 auto;
 }
 
 button {
     outline-style: none;
 }
+
+
+
+
+
+/* Queries for device-size specific CSS */
+
+@media (max-width: 849px) {
+
+    .desktop {
+        padding: 0;
+    }
+    
+    .desktop .navigation{
+        display: none;
+    }
+
+    .logo {
+        margin-left: 15px;
+        margin-top: 15px;
+        font-size: 1.1rem;
+    }
+
+    .mobile {
+        margin-left: auto;
+    }
+
+    .landing-banner {
+        font-size: 5.5rem;
+        padding: 0 15px;
+        letter-spacing: .105rem;
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 768px) {
     .landing-banner {
         font-size: 4.9rem;
-        padding: 0 15px;
-        letter-spacing: .105rem;
+
     }
     .SamplingIsntStealing {
         height: calc(100vh - 57px);
@@ -138,32 +174,7 @@ button {
     }
 }
 
-@media (max-width: 849px) {
 
-    .desktop {
-        padding: 0;
-    }
-    
-    .desktop .navigation{
-        display: none;
-    }
-
-    .logo {
-        margin-left: 15px;
-        margin-top: 15px;
-        font-size: 1.1rem;
-    }
-
-    .mobile {
-        margin-left: auto;
-    }
-
-    /* .landing-banner {
-        font-size: 5.2rem;
-        letter-spacing: .105rem;
-        padding: 0 15px;
-    } */
-}
 
 @media (min-width: 850px) {
 
