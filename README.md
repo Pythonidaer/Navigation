@@ -4,3 +4,7 @@ I am trying to create a navigation bar from scratch. I'm also practicing GitHub 
 3) 'touch'-ing files from the command line
 4) coding the navigation in VS
 5) using git commands to push the final product to GitHub
+
+
+Current Progress:
+https://pythonidaer.github.io/Navigation/
