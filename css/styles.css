@@ -11,6 +11,9 @@ Special thanks and credit goes to the following:
 5) Jonathan Suh https://github.com/jonsuh
 - Without his amazing hamburger menu contributions this wouldn't be possible!
 */
+* {
+    box-sizing: border-box;
+  }
 
 html, body {
     margin: 0;
