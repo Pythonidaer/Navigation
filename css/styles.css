@@ -119,6 +119,9 @@ button {
         letter-spacing: .105rem;
         margin: 0 auto;
     }
+    header {
+        max-height: 42px;
+    }
     .SamplingIsntStealing {
         height: calc(100vh - 42px);
     }
@@ -129,6 +132,12 @@ button {
         font-size: 4.9rem;
 
     }
+    header {
+        max-height: 42px;
+    }
+    .SamplingIsntStealing {
+        height: calc(100vh - 42px);
+    }
 
 }
 
@@ -136,6 +145,12 @@ button {
     .landing-banner {
         font-size: 4.5rem;
 
+    }
+    header {
+        max-height: 42px;
+    }
+    .SamplingIsntStealing {
+        height: calc(100vh - 42px);
     }
 }
 
@@ -145,6 +160,12 @@ button {
 
 
     }
+    header {
+        max-height: 42px;
+    }
+    .SamplingIsntStealing {
+        height: calc(100vh - 42px);
+    }
 }
 
 @media (max-width: 414px) {
@@ -152,8 +173,11 @@ button {
         font-size: 2.4rem;
 
     }
+    header {
+        max-height: 42px;
+    }
     .SamplingIsntStealing {
-        height: calc(100vh - 57px);
+        height: calc(100vh - 42px);
     }
 }
 
@@ -161,6 +185,12 @@ button {
     .landing-banner {
         font-size: 2.4rem;
 
+    }
+    header {
+        max-height: 42px;
+    }
+    .SamplingIsntStealing {
+        height: calc(100vh - 42px);
     }
 
 }
@@ -170,6 +200,12 @@ button {
         font-size: 2.1rem;
 
     }
+    header {
+        max-height: 42px;
+    }
+    .SamplingIsntStealing {
+        height: calc(100vh - 42px);
+    }
     
 }
 
@@ -177,6 +213,22 @@ button {
     .landing-banner {
         font-size: 2rem;
 
+    }
+    header {
+        max-height: 42px;
+    }
+    .SamplingIsntStealing {
+        height: calc(100vh - 42px);
+    }
+}
+
+@media (max-width: 320px) {
+    .landing-banner {
+        font-size: 2rem;
+
+    }
+    header {
+        max-height: 42px;
     }
     .SamplingIsntStealing {
         height: calc(100vh - 42px);
