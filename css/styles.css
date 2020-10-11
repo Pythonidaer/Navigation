@@ -26,11 +26,14 @@ html {
 
 body {
     font-family: 'Commissioner', sans-serif;
+    background: #C41E3D;
+    color: #EEC584;
 }
 
 a {
     text-decoration: none;
     color: black;
+    color: #EEC584;
 }
 
 ul {
@@ -72,7 +75,7 @@ ul {
 }
 
 .SamplingIsntStealing {
-    height: calc(100vh - 42px);
+    height: calc(100vh - 2.5rem);
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -120,10 +123,10 @@ button {
         margin: 0 auto;
     }
     header {
-        max-height: 42px;
+        max-height: 3.5rem;
     }
     .SamplingIsntStealing {
-        height: calc(100vh - 42px);
+        height: calc(100vh - 3.5rem);
     }
 }
 
@@ -133,10 +136,10 @@ button {
 
     }
     header {
-        max-height: 42px;
+        max-height: 3.5rem;
     }
     .SamplingIsntStealing {
-        height: calc(100vh - 42px);
+        height: calc(100vh - 3.5rem);
     }
 
 }
@@ -147,10 +150,10 @@ button {
 
     }
     header {
-        max-height: 42px;
+        max-height: 3.5rem;
     }
     .SamplingIsntStealing {
-        height: calc(100vh - 42px);
+        height: calc(100vh - 3.5rem);
     }
 }
 
@@ -161,10 +164,10 @@ button {
 
     }
     header {
-        max-height: 42px;
+        max-height: 3.5rem;
     }
     .SamplingIsntStealing {
-        height: calc(100vh - 42px);
+        height: calc(100vh - 3.5rem);
     }
 }
 
@@ -174,10 +177,10 @@ button {
 
     }
     header {
-        max-height: 42px;
+        max-height: 3.5rem;
     }
     .SamplingIsntStealing {
-        height: calc(100vh - 42px);
+        height: calc(100vh - 3.5rem);
     }
 }
 
@@ -187,10 +190,10 @@ button {
 
     }
     header {
-        max-height: 42px;
+        max-height: 3.5rem;
     }
     .SamplingIsntStealing {
-        height: calc(100vh - 42px);
+        height: calc(100vh - 3.5rem);
     }
 
 }
@@ -201,10 +204,10 @@ button {
 
     }
     header {
-        max-height: 42px;
+        max-height: 3.5rem;
     }
     .SamplingIsntStealing {
-        height: calc(100vh - 42px);
+        height: calc(100vh - 3.5rem);
     }
     
 }
@@ -215,10 +218,10 @@ button {
 
     }
     header {
-        max-height: 42px;
+        max-height: 3.5rem;
     }
     .SamplingIsntStealing {
-        height: calc(100vh - 42px);
+        height: calc(100vh - 3.5rem);
     }
 }
 
@@ -228,10 +231,10 @@ button {
 
     }
     header {
-        max-height: 42px;
+        max-height: 3.5rem;
     }
     .SamplingIsntStealing {
-        height: calc(100vh - 42px);
+        height: calc(100vh - 3.5rem);
     }
 }
 
