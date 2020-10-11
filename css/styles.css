@@ -76,7 +76,7 @@ ul {
 }
 
 .SamplingIsntStealing {
-    min-height: calc(100% - 2.5rem);
+    max-height: calc(100% - 2.5rem);
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -127,7 +127,7 @@ button {
         max-height: 2.5rem;
     }
     .SamplingIsntStealing {
-        min-height: calc(100% - 2.5rem);
+        max-height: calc(100% - 2.5rem);
     }
 }
 
@@ -140,7 +140,7 @@ button {
         max-height: 2.5rem;
     }
     .SamplingIsntStealing {
-        min-height: calc(100% - 2.5rem);
+        max-height: calc(100% - 2.5rem);
     }
 
 }
@@ -154,7 +154,7 @@ button {
         max-height: 2.5rem;
     }
     .SamplingIsntStealing {
-        min-height: calc(100% - 2.5rem);
+        max-height: calc(100% - 2.5rem);
     }
 }
 
@@ -168,7 +168,7 @@ button {
         max-height: 2.5rem;
     }
     .SamplingIsntStealing {
-        min-height: calc(100% - 2.5rem);
+        max-height: calc(100% - 2.5rem);
     }
 }
 
@@ -208,7 +208,7 @@ button {
         max-height: 2.5rem;
     }
     .SamplingIsntStealing {
-        min-height: calc(100% - 2.5rem);
+        max-height: calc(100% - 2.5rem);
     }
     
 }
@@ -222,7 +222,7 @@ button {
         max-height: 2.5rem;
     }
     .SamplingIsntStealing {
-        min-height: calc(100% - 2.5rem);
+        max-height: calc(100% - 2.5rem);
     }
 }
 
@@ -235,7 +235,7 @@ button {
         max-height: 2.5rem;
     }
     .SamplingIsntStealing {
-        min-height: calc(100% - 2.5rem);
+        max-height: calc(100% - 2.5rem);
     }
 }
 
