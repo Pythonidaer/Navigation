@@ -18,6 +18,7 @@ Special thanks and credit goes to the following:
 html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 html {
@@ -56,7 +57,7 @@ ul {
     flex-grow: 1;
     line-height: 96%;
     cursor: pointer;
-    max-height: 31px;
+    max-height: 2.5rem;
 }
 
 .navigation li:nth-of-type(1) {
@@ -75,7 +76,7 @@ ul {
 }
 
 .SamplingIsntStealing {
-    height: calc(100vh - 2.5rem);
+    min-height: calc(100% - 2.5rem);
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -123,10 +124,10 @@ button {
         margin: 0 auto;
     }
     header {
-        max-height: 3.5rem;
+        max-height: 2.5rem;
     }
     .SamplingIsntStealing {
-        height: calc(100vh - 3.5rem);
+        min-height: calc(100% - 2.5rem);
     }
 }
 
@@ -136,10 +137,10 @@ button {
 
     }
     header {
-        max-height: 3.5rem;
+        max-height: 2.5rem;
     }
     .SamplingIsntStealing {
-        height: calc(100vh - 3.5rem);
+        min-height: calc(100% - 2.5rem);
     }
 
 }
@@ -150,10 +151,10 @@ button {
 
     }
     header {
-        max-height: 3.5rem;
+        max-height: 2.5rem;
     }
     .SamplingIsntStealing {
-        height: calc(100vh - 3.5rem);
+        min-height: calc(100% - 2.5rem);
     }
 }
 
@@ -164,10 +165,10 @@ button {
 
     }
     header {
-        max-height: 3.5rem;
+        max-height: 2.5rem;
     }
     .SamplingIsntStealing {
-        height: calc(100vh - 3.5rem);
+        min-height: calc(100% - 2.5rem);
     }
 }
 
@@ -177,10 +178,10 @@ button {
 
     }
     header {
-        max-height: 3.5rem;
+        max-height: 2.5rem;
     }
     .SamplingIsntStealing {
-        height: calc(100vh - 3.5rem);
+        min-height: calc(100% - 2.5rem);
     }
 }
 
@@ -190,10 +191,10 @@ button {
 
     }
     header {
-        max-height: 3.5rem;
+        max-height: 2.5rem;
     }
     .SamplingIsntStealing {
-        height: calc(100vh - 3.5rem);
+        min-height: calc(100% - 2.5rem);
     }
 
 }
@@ -204,10 +205,10 @@ button {
 
     }
     header {
-        max-height: 3.5rem;
+        max-height: 2.5rem;
     }
     .SamplingIsntStealing {
-        height: calc(100vh - 3.5rem);
+        min-height: calc(100% - 2.5rem);
     }
     
 }
@@ -218,10 +219,10 @@ button {
 
     }
     header {
-        max-height: 3.5rem;
+        max-height: 2.5rem;
     }
     .SamplingIsntStealing {
-        height: calc(100vh - 3.5rem);
+        min-height: calc(100% - 2.5rem);
     }
 }
 
@@ -231,10 +232,10 @@ button {
 
     }
     header {
-        max-height: 3.5rem;
+        max-height: 2.5rem;
     }
     .SamplingIsntStealing {
-        height: calc(100vh - 3.5rem);
+        min-height: calc(100% - 2.5rem);
     }
 }
 
