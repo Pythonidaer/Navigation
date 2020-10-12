@@ -5,6 +5,11 @@
  * @site https://jonsuh.com/hamburgers
  * @link https://github.com/jonsuh/hamburgers
  */
+
+button.hamburger {
+  z-index: 999999999;
+}
+
  .hamburger {
     /* padding: 15px 15px; */
     padding: 15px 15px 0 0;
@@ -29,6 +34,7 @@
     .hamburger.is-active .hamburger-inner::after {
       /* background-color: #000; */
       background-color: #EEC584;
+      z-index: 100;
     }
   
   .hamburger-box {
@@ -53,14 +59,18 @@
       position: absolute;
       transition-property: transform;
       transition-duration: 0.15s;
-      transition-timing-function: ease; }
+      transition-timing-function: ease; 
+      z-index: 100;}
     .hamburger-inner::before, .hamburger-inner::after {
       content: "";
-      display: block; }
+      display: block; 
+      z-index: 100;}
     .hamburger-inner::before {
-      top: -10px; }
+      top: -10px; 
+      z-index: 100;}
     .hamburger-inner::after {
-      bottom: -10px; }
+      bottom: -10px;
+      z-index: 100; }
   
  
   /*
@@ -72,19 +82,23 @@
     .hamburger--spin .hamburger-inner::before {
       transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in; }
     .hamburger--spin .hamburger-inner::after {
-      transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+      transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19); 
+      z-index: 100;}
   
   .hamburger--spin.is-active .hamburger-inner {
     transform: rotate(225deg);
     transition-delay: 0.12s;
-    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); 
+    z-index: 100;}
     .hamburger--spin.is-active .hamburger-inner::before {
       top: 0;
       opacity: 0;
-      transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out; }
+      transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out; 
+      z-index: 100;}
     .hamburger--spin.is-active .hamburger-inner::after {
       bottom: 0;
       transform: rotate(-90deg);
-      transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
+      transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); 
+      z-index: 100;}
   
   

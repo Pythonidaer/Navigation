@@ -39,7 +39,7 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    /* color: black; */
     color: #EEC584;
 }
 
@@ -55,12 +55,50 @@ ul {
 
 .logo {
     font-weight: bold;
+    z-index: 100;
 }
 
 .logo-svg {
     fill: #EEC584;
     width: 100% !important;
     height: 100% !important;
+}
+
+.nav-fade {
+    transition: all .5s linear;
+}
+
+.nav-hidden {
+    display: none; 
+}
+
+.nav-hidden ul {
+    list-style: none;
+}
+.nav-visible {
+    background:#222E50;
+    color: #EEC584;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.nav-visible ul li {
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+}
+
+.nav-visible ul li:nth-child(4) {
+    margin-bottom: 0;
 }
 
 .navigation {
@@ -187,6 +225,9 @@ button {
     .SamplingIsntStealing {
         min-height: calc(100% - 2.5rem);
         max-height: calc(100% - 2.5rem);
+    }
+    .nav-visible {
+    font-size: 3rem;
     }
 }
 
