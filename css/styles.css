@@ -2,6 +2,7 @@
 Special thanks and credit goes to the following:
 1) Kevin Powell https://www.youtube.com/watch?v=Azfj1efPAH0
 - This guy always makes CSS fun and easy to understand.
+https://www.youtube.com/watch?v=eZJOSK4gXl4 he also taught me about Figma
 2) Site Inspire https://www.siteinspire.com/websites/6966-norgram
 - I was able to find minimalist styled websites to imitate here.
 3) Norgram, a Denmark company https://www.norgram.co/
@@ -10,6 +11,10 @@ Special thanks and credit goes to the following:
 - He taught me a lot about Typography, Alignment, Visual Hierarchy and more.
 5) Jonathan Suh https://github.com/jonsuh
 - Without his amazing hamburger menu contributions this wouldn't be possible!
+6) Build UX https://www.youtube.com/watch?v=R0oz8DsxeYU 
+- I learned how to turn my logo into an SVG
+7) This source allowed me to access all of my svg's code:
+https://jakearchibald.github.io/svgomg/ -- learned from source found in 6)
 */
 * {
     box-sizing: border-box;
@@ -26,7 +31,8 @@ html {
 }
 
 body {
-    font-family: 'Commissioner', sans-serif;
+    /* font-family: 'Commissioner', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
     background: #C41E3D;
     color: #EEC584;
 }
@@ -49,6 +55,12 @@ ul {
 
 .logo {
     font-weight: bold;
+}
+
+.logo-svg {
+    fill: #EEC584;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .navigation {
@@ -130,6 +142,7 @@ button {
     .SamplingIsntStealing {
         min-height: calc(100% - 2.5rem);
         max-height: calc(100% - 2.5rem);
+        padding: 0 15px;
     }
 }
 
