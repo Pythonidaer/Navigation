@@ -31,3 +31,6 @@ Use what you'd like from this code and project, but please credit Jon Suh if you
 
 ## License:
 MIT
+
+## Contact:
+You can email me at codefolio.work@gmail.com
